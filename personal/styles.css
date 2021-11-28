@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+
+title{
+    font-family: 'Staatliches', cursive;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+div.frontpage{
+    
+   
+    overflow: hidden;
+    width: 92%;
+    height: 87vh;
+    margin-left: 3%;
+    margin-top: 6vh;
+    background-color:#80121f;
+    border-radius: 60px;
+   
+}
+
+div.coding{
+    height: 28vh;
+    width: 28%;
+    margin-top:3%;
+    margin-left: 4%;
+    background-color: #f8fc00;
+display: flexbox;
+    border-radius: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: left;
+    
+   
+}
+label{
+    font-size: 30px;
+}
+input {
+        width: 90%;
+        height: 20px;
+        
+        box-sizing: border-box;
+        
+       
+        background-color: #f8f8f8;
+        font-size: 10px;
+        resize: none;
+    }
+
+input.abou {
+        width: 90%;
+        height: 50px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 10px;
+        resize: none;
+    }
+
+
+input[type=text], input[type=submit], input[type=email] {
+    background-color: white;
+    border: none;
+    
+    color: red;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+form.form{
+    color: #f8fc00;
+  
+    font-size: 40px;
+    font-family:'Source Sans Pro', sans-serif ;
+}
+div.contact{
+    height: 68vh;
+    width: 45%;
+    
+    margin-left: 25%;
+    padding: 10px;
+ 
+    border-radius: 60px;
+    background-color: #063438;
+}
+h.skillname{
+    color: black;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Staatliches', cursive; ;
+    margin-left: 12%;
+    display: grid;
+    margin-top: 2%;
+}
+
+h.hi{
+   color: black;
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
+    margin-left: 10%;
+    min-height: 100px;
+    
+    text-align: left;
+   }
+span.xreedev{
+    animation: animate2 1s infinite;
+}
+   @keyframes animate {
+       0%{
+           color: white;
+       }
+      
+    50%{
+        color:black;
+        
+   
+    }
+    100%{
+        color: white;
+        
+    }
+       
+   }
+   @keyframes animate2 {
+    0%{
+        color: black;
+    }
+   
+ 50%{
+     color:white;
+     
+
+ }
+ 100%{
+     color: black;
+     
+ }
+    
+}
+  .navbar{
+    position: sticky;
+    top: 0;
+        height: 80px;
+   display: flex;
+   align-items :center;
+   justify-content:space-between;
+   padding : 0px 50px 0px 100px;
+   
+ 
+}
+ .navbar ul{
+    
+    display: flex;
+     list-style: none;
+
+ }
+ .navbar ul li{
+     margin:0 5px;
+   
+    
+ }
+ 
+  .navbar ul li a{
+    cursor:pointer;
+     text-decoration: none;
+     color:white;
+     padding :8px 10px;
+     font-weight: 1000;
+     letter-spacing: 1px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 19px;
+     border-radius: 5px;
+   ;
+     transition: all 0.3s ease;
+
+ }
+
+
+ 
+ nav ul li a:hover,
+ nav ul li a:active
+ {   color: #f8fc00;
+     
+     font-weight:bolder;
+     height : 100px;
+     width: 3456px;
+     
+ }
+
+ 
+nav .logo{
+      
+    position: relative;
+     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 33px;
+    color:#ffff;
+    font-weight:600;
+    border-radius: 10%;
+}
+p.para{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    margin-left: 10%;
+    width: 37%;
+    color: #f8fc00;
+}
+p.para::-moz-selection{
+    color: green;
+}
+
+h.sectionhead{
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: 'Staatliches', cursive;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 0%;
+}
